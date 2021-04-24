@@ -1,0 +1,63 @@
+nav{
+    background-color: rgb(121, 250, 104);
+    height: 60px;
+    font-size: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav a{
+    color: yellowgreen;
+    text-decoration: none;
+}
+nav a:hover{
+    color:tan
+}
+.baner{
+    height: 800px;
+     background: url(https://i.ytimg.com/vi/zjKSz3s8Ty0/maxresdefault.jpg);
+     background-size: 100%;
+     background-repeat: no-repeat;
+}
+button {
+    height: 60px;
+    width: 200px;
+    color :yellow;
+    border:none;
+}
+.top-games a img {
+    width: 200px;
+    height:160px;
+}
+.games {
+    display: flex;
+    flex-flow:column;
+    align-items:center;
+    justify-content: center;
+    height:600px;
+    background: url(https://get.wallhere.com/photo/video-games-Killzone-Shadow-Fall-color-screenshot-8358.jpg);
+}
+.video {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    background: url(https://www.aviasales.ru/blog/wp-content/uploads/2020/04/sa_pixar_virtualbg_coco_16x9_9ccd7110-1.jpg);
+}
+.youtube{
+    width: 80vw;
+    justify-content: center;
+    align-items:center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+.youtube iframe{
+    margin: 30px;
+}
+footer {
+    align-items: center;
+    justify-content: center;
+    background: url(https://www.aviasales.ru/blog/wp-content/uploads/2020/04/sa_pixar_virtualbg_coco_16x9_9ccd7110-1.jpg);
+    display: flex;
+}
